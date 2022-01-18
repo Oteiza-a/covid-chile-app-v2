@@ -5,5 +5,11 @@ import "./Home.css";
 export function Home() {
   let navigate = useNavigate();
 
-  return <div className="">hola munding</div>;
+  return (
+    <div className="basic-page-template">
+      <div className='home-container'>
+        hola munding
+        </div>
+    </div>
+  );
 }

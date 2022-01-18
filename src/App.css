@@ -3,9 +3,9 @@ body {
   background-color: var(--neutral-white);
   
   /* --primary: #E54B4B; */
-  --primary: #4B6CE5;
+  --primary: #0B58D5;
   /* --secondary: #FF9585; */
-  --secondary: #85AAFF;
+  --secondary: #e73c53;
 
   --white: #FFFFFF;
   --neutral-white: #F5F5F5;
@@ -26,7 +26,6 @@ body {
 
 .basic-page-template {
   width: 100%;
-  padding: 25px 30px 25px 30px;
 }
 
 .basic-page-template .title {
