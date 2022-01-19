@@ -1,0 +1,36 @@
+.nav-menu-container {
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+}
+
+.nav-menu-item {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.nav-menu-item:hover {
+  background-color: rgba(75, 75, 75, 0.1);
+}
+
+.nav-item-selected {
+  background-color: rgba(90, 28, 236, 0.5);
+  cursor: default;
+}
+
+.nav-item-selected > * {
+  color: white !important;
+}
+
+.nav-menu-icon {
+  margin-right: 13px;
+  color: var(--black);
+}
+
+.nav-menu-text {
+  color: var(--black);
+}

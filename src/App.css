@@ -3,9 +3,9 @@ body {
   background-color: var(--neutral-white);
   
   /* --primary: #E54B4B; */
-  --primary: #0B58D5;
+  --primary: rgb(90, 28, 236);
   /* --secondary: #FF9585; */
-  --secondary: #e73c53;
+  --secondary: #3c9ae7;
 
   --white: #FFFFFF;
   --neutral-white: #F5F5F5;
@@ -24,12 +24,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.no-margin {
+  margin: 0px;
+}
+
 .basic-page-template {
-  width: 100%;
+  width: 95%;
+  padding: 40px 0px;
+  margin: 0px auto;
 }
 
 .basic-page-template .title {
   font-size: 20px;
   font-weight: 500;
   color: var(--neutral-black);
+}
+
+.n-spacing {
+  padding: 20px;
+}
+
+.glass {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  backdrop-filter: blur(30px);
+  background-clip: padding-box;
+  box-shadow: 6px 6px 15px rgba(45, 55, 68, 0.2);
 }
